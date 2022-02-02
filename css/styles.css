@@ -23,3 +23,7 @@ a {
 th {
   color: #595260;
 }
+hr {
+  border-style: none;
+  border-top-style: none;
+}
