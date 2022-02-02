@@ -20,8 +20,12 @@ strong {
 a {
   color: #FFD523;
 }
+a:hover {
+  color: red;
+}
 th {
   color: #595260;
+  font-size: 20px;
 }
 hr {
   border-style: none;
