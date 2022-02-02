@@ -1,0 +1,25 @@
+body {
+  background-color: #2C2E43;
+  color: #B2B1B9;
+}
+h1 {
+  color: #FFD523;
+}
+h1:hover {
+  color: red;
+}
+h3 {
+  color: #595260;
+}
+strong {
+  color: red;
+}
+.beta {
+  color: red;
+}
+a {
+  color: #FFD523;
+}
+th {
+  color: #595260;
+}
