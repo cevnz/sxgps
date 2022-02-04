@@ -8,6 +8,7 @@ h1 {
   color: #FFD523;
   font-family: 'Press Start 2P', cursive;
   font-size: 5em;
+  margin-bottom: 35px;
 }
 h1:hover {
   color: red;
