@@ -1,69 +1,81 @@
-body {
-  background-color: #2C2E43;
-  color: #B2B1B9;
-  font-family: monospace;
-  font-size: 1em;
-}
-h1 {
-  color: #FFD523;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 5em;
-}
-h1:hover {
-  color: red;
-}
-h2 {
-  font-family: monospace;
-  font-size: 1.5em;
-}
-h3 {
-  color: #595260;
-  font-family: 'Press Start 2P', cursive;
-  line-height: 2;
-}
-strong {
-  color: red;
-}
-a {
-  color: #FFD523;
-}
-a:hover {
-  color: red;
-}
-th {
-  font-family: 'Press Start 2P', cursive;
-  color: #595260;
-  font-size: 20px;
-}
-hr {
-  border-style: none;
-  border-top-style: none;
-}
-footer {
-  padding: 30px auto;
-    text-align: center;
-}
-.logo {
-    border-radius: 100%;
-    width: 10%;
-}
-.title {
-  text-align: center;
-  padding: 40px;
-}
-.title-table{
-  margin: auto;
-}
-.info {
-  text-align: center;
-}
-.beta {
-  color: red;
-}
-.table {
-  padding: 50px;
-  font-size: 1em;
-}
-.info-table {
-  margin: auto;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SXGPS</title <!-- by CEVNZ -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="title">
+    <img class="logo" src="images/Logo.png" alt="Logo photo">
+    <h1>SXGPS</h1>
+    <h2><em>Never get lost in Austin...</em></h2>
+  </div>
+  <hr>
+  <div class="info">
+    <h3>If you're reading this it's <strong><u>NOT</u></strong> too late!</h3>
+    <p>This site contains a live real-time list of <a href="https://www.sxsw.com/">SXSW</a> events coming in 2022.</p>
+    <p>You can still get a SXSW wristband <a href="https://wristbands.sxsw.com/">HERE</a>! Wristbands are the easiest way to move up the SXSW hierarchy to get into the events.</p>
+    <p class="beta"><em>(Website is still in beta...)</em></p>
+  </div>
+  <div class="table">
+  <table class="info-table"cellspacing="20px">
+    <tr>
+      <th align="left"><u>Event</u></th>
+      <th align="left"><u>Date</u></th>
+      <th align="left"><u>Time</u></th>
+    </tr>
+    <tr>
+      <td><a href="https://www.ristband.co/sxsw">Ristband Launch Party</a></td>
+      <td class="date">March 14th</td>
+      <td>8:00 pm</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.eventbrite.com/e/the-non-obvious-7-minute-meetup-the-shortest-sxsw-2022-event-tickets-258113142357">The Non-Obvious 7 Minute Meetup</a></td>
+      <td class="date">March 12th</td>
+      <td>9:00 am</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.eventbrite.com/e/urban-fetes-industry-panel-showcase-media-lounge-2022-tickets-82311880049">Urban Fêtes Industry Panel, Showcase & Media Lounge</a></td>
+      <td class="date">March 19th</td>
+      <td>12:00 pm</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.ticketfairy.com/event/an-nft-xperience-17mar2022/">New Found Voice NFT Experience</a></td>
+      <td class="date">March 17th</td>
+      <td>12:00 pm</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.eventbrite.com/e/free-the-future-of-food-at-sxsw-2022-100-speakers-12-incredible-events-tickets-250183945917">The Future of Food</a></td>
+      <td class="date">March 11th</td>
+      <td>2:30 pm</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.eventbrite.com/e/blockchain-brews-business-tickets-259644643117">Blockchain, Brews, Business</a></td>
+      <td class="date">March 13th</td>
+      <td>7:00 pm</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.createcultivate.com/austin-pop-up-2022/">Austin Pop-Up Powered by MasterCard</a></td>
+      <td class="date">March 13th</td>
+      <td>10:00 am</td>
+    </tr>
+    <tr>
+      <td><a href="https://house.capitalfactory.com/">Capital Factory House Powered by AWS</a></td>
+      <td class="date">March 11th</td>
+      <td>2:00 pm</td>
+    </tr>
+  </table>
+  </div>
+  <br>
+  <hr>
+  <footer>
+      <h4><a href="contact.html">Contact</a></h4>
+  </footer>
+</body>
+
+</html>
