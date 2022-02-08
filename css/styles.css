@@ -9,6 +9,7 @@ h1 {
   font-family: 'Press Start 2P', cursive;
   font-size: 5em;
   margin-bottom: 35px;
+  margin-top: 10px;
 }
 h1:hover {
   color: red;
@@ -52,6 +53,7 @@ footer {
 .title {
   text-align: center;
   padding: 40px;
+  padding-top: 80px;
 }
 .title-table{
   margin: auto;
@@ -63,18 +65,27 @@ footer {
   color: red;
 }
 .table {
-  padding: 50px;
+  padding: 40px;
   font-size: 1em;
+
 }
 .info-table {
   margin: auto;
 }
 
 .email {
-  padding: 30px auto;
+  padding: 10px;
     text-align: center;
 }
 
+.navfont {
+  font-family: 'Press Start 2P', cursive;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .btn {
   background: #ffeb99;
