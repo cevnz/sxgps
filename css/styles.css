@@ -64,6 +64,7 @@ strong {
 .navbar {
   position: fixed;
   top: 0;
+  z-index: 1;
   width: 100%;
 }
 
@@ -94,9 +95,15 @@ strong {
   text-align: center;
 }
 
+.carousel-control-prev{
+  z-index: 0;
+}
+.carousel-control-next{
+  z-index: 0;
+}
 
 .carousel-item {
-  padding: 10px 200px
+  padding: 10px 100px
 }
 
 .beta {
@@ -115,6 +122,7 @@ strong {
 .memberships {
   padding: 0 100px 0;
   margin: auto;
+  z-index: 0;
 }
 
 .email {
