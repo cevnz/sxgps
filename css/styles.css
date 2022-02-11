@@ -29,16 +29,16 @@ h3 {
   font-size: 1em;
 }
 
-strong {
-  color: red;
-}
-
 a {
   color: #FFD523;
 }
 
 a:hover {
   color: red;
+}
+
+i {
+  padding-bottom: 30px;
 }
 
 th {
@@ -55,6 +55,20 @@ hr {
 footer {
   padding: 30px 0 20px;
   text-align: center;
+}
+
+strong {
+  color: red;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navfont {
+  font-family: 'Press Start 2P', cursive;
 }
 
 .logo {
@@ -76,6 +90,15 @@ footer {
   text-align: center;
 }
 
+.instructions {
+  text-align: center;
+}
+
+
+.carousel-item {
+  padding: 10px 200px
+}
+
 .beta {
   color: red;
 }
@@ -94,15 +117,8 @@ footer {
   text-align: center;
 }
 
-.navfont {
-  font-family: 'Press Start 2P', cursive;
-}
 
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+
 
 .btn {
   background: #ffeb99;
