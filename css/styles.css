@@ -113,7 +113,157 @@ strong {
 }
 
 .memberships {
-  padding: 100px;
+  padding: 0px 100px 0px;
+  margin: auto;
+}
+
+.email {
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  background: #ffeb99;
+  background-image: -webkit-linear-gradient(top, #ffeb99, #FFD523);
+  background-image: -moz-linear-gradient(top, #ffeb99, #FFD523);
+  background-image: -ms-linear-gradient(top, #ffeb99, #FFD523);
+  background-image: -o-linear-gradient(top, #ffeb99, #FFD523);
+  background-image: linear-gradient(to bottom, #ffeb99, #FFD523);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Press Start 2P', cursive;
+  color: #2C2E43;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFD523;
+  background-image: -webkit-linear-gradient(top, #FFD523, #ffeb99);
+  background-image: -moz-linear-gradient(top, #FFD523, #ffeb99);
+  background-image: -ms-linear-gradient(top, #FFD523, #ffeb99);
+  background-image: -o-linear-gradient(top, #FFD523, #ffeb99);
+  background-image: linear-gradient(to bottom, #FFD523, #ffeb99);
+  text-decoration: none;
+}
+body {
+  background-color: #2C2E43;
+  color: #B2B1B9;
+  font-family: monospace;
+  font-size: 1em;
+}
+
+h1 {
+  color: #FFD523;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5em;
+  margin-bottom: 35px;
+  margin-top: 10px;
+}
+
+h1:hover {
+  color: red;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: #595260;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 2;
+  font-size: 1em;
+}
+
+a {
+  color: #FFD523;
+}
+
+a:hover {
+  color: red;
+}
+
+i {
+  padding-bottom: 30px;
+}
+
+th {
+  font-family: 'Press Start 2P', cursive;
+  color: #595260;
+  font-size: 1.5em;
+}
+
+hr {
+  border-style: none;
+  border-top-style: none;
+}
+
+footer {
+  padding: 30px 0 20px;
+  text-align: center;
+}
+
+strong {
+  color: red;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navfont {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.title {
+  text-align: center;
+  padding: 40px;
+  padding-top: 100px;
+}
+
+.title-table {
+  margin: auto;
+}
+
+.info {
+  text-align: center;
+}
+
+.instructions {
+  text-align: center;
+}
+
+
+.carousel-item {
+  padding: 10px 200px
+}
+
+.beta {
+  color: red;
+}
+
+.table {
+  padding: 40px;
+  font-size: 1em;
+}
+
+.info-table {
+  margin: auto;
+}
+
+.memberships {
+  padding: 0px 100px 0px;
   margin: auto;
 }
 
