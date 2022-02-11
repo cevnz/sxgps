@@ -112,13 +112,15 @@ strong {
   margin: auto;
 }
 
+.memberships {
+  padding: 50px;
+  margin: auto;
+}
+
 .email {
   padding: 10px;
   text-align: center;
 }
-
-
-
 
 .btn {
   background: #ffeb99;
